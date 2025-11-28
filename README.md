@@ -18,11 +18,18 @@
 ## VOLVER A CODIFICAR DESPUES DEL GIT CLONE
 * Clonar repositorio desde el https://github.com/*****.git
 * En la carpeta del repositorio hacer 
-```` ``` ```` + npm install + composer install + ```` ``` ````
+```` ``` ````
+npm install
+composer install
+```` ``` ````
 * Despues generas la llave unica de encriptado
-```` ``` ```` + php artisan key:generate + ```` ``` ````
+```` ``` ````
+php artisan key:generate
+```` ``` ````
 * Despues reinicias la cache
-```` ``` ```` + php artisan config:cache + ```` ``` ````
+```` ``` ````
+php artisan config:cache 
+```` ``` ````
 
 **para iniciar el servidor laravel y node** 
 ```` ``` ```` + php artisan serve + npm run dev + ```` ``` ````
