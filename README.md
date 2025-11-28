@@ -9,12 +9,23 @@
 * Las vistas están en **resource/views**
 ## Estilos
 * Se importan las librerias y referencias de estilos de laravel
-  `comoposer require laravel/ui`
+  `composer require laravel/ui`
 ## Autenticación
 * 
 **[26:38]**
 [Video de referencia](https://www.youtube.com/watch?v=AnV7M2ROasI)
-  
+
+## VOLVER A CODIFICAR DESPUES DEL GIT CLONE
+* Clonar repositorio desde el https://github.com/*****.git
+* En la carpeta del repositorio hacer 
+```` ``` ```` + npm install + composer install + ```` ``` ````
+* Despues generas la llave unica de encriptado
+```` ``` ```` + php artisan key:generate + ```` ``` ````
+* Despues reinicias la cache
+```` ``` ```` + php artisan config:cache + ```` ``` ````
+
+**para iniciar el servidor laravel y node** 
+```` ``` ```` + php artisan serve + npm run dev + ```` ``` ````
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
