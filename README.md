@@ -1,3 +1,21 @@
+# Pasos
+
+## Preparación
+* El primer paso fue crear el servidor nginx, php y mariadb
+* Segundo paso fue instalar composer en php
+* tercer paso fue instalar node con nvm
+* despues se configura el .env para instalar la base de datos de laravel
+  `php artisan migrate`
+* Las vistas están en **resource/views**
+## Estilos
+* Se importan las librerias y referencias de estilos de laravel
+  `comoposer require laravel/ui`
+## Autenticación
+* 
+**[26:38]**
+[Video de referencia](https://www.youtube.com/watch?v=AnV7M2ROasI)
+  
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
